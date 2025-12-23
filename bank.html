@@ -1,110 +1,133 @@
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>FarmWell Banking</title>
-        <link rel="stylesheet" href="style.css">
-        
-    </head>
-    <body>
-        <br><h1 align="center">FarmWell</h1>
-        <nav class="navbar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="store.html">Store</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="bank.html">Mobile-Banking</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="login.html">Login</a></li>
-        </ul>
-        </nav>
-        <main class="banking-section">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <h1 class="bank-title">Digital Banking Services</h1>
+<title>FarmWell – Banking Demo</title>
 
-  <div class="bank-grid">
+<!-- GOOGLE & SAFETY -->
+<meta name="robots" content="noindex, nofollow">
+<meta name="googlebot" content="noindex, nofollow">
+<meta name="description" content="Educational banking simulation UI. No real banking services are provided.">
 
-    <!-- ADD DEBIT CARD -->
-    <div class="bank-card">
-      <h3>Add Debit Card</h3>
-      <p>Apply for a new debit card</p>
-      <button>Apply Now</button>
-      <p> Already Have Your Debit..?</p>
-      <button>Add Debit Card</button>
-    </div>
+<link rel="stylesheet" href="style.css">
+</head>
 
-    <!-- LOAN OPTIONS -->
-    <div class="bank-card">
-      <h3>Loan Options</h3>
-      <ul>
-        <li>🏠 Home Loan</li>
-        <li>🚗 Vehicle Loan</li>
-        <li>🎓 Education Loan</li>
-        <li>💼 Personal Loan</li>
-      </ul>
-      <button>Check Eligibility</button>
-    </div>
+<body>
 
-    <!-- FD CALCULATOR -->
-    <div class="bank-card">
-      <h3>FD Calculator (7% p.a)</h3>
+<h1 align="center">FarmWell</h1>
 
-      <label>Amount (₹)</label>
-      <input type="number" id="fdAmount" placeholder="Enter amount">
+<nav class="navbar">
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="store.html">Store</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="bank.html">Mobile-Banking</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="login.html">Login</a></li>
+</ul>
+</nav>
+<main class="banking-section">
 
-      <label>Years</label>
-      <input type="number" id="fdYears" placeholder="Enter years">
+<h1 class="bank-title">Digital Banking Services (Demo)</h1>
 
-      <button onclick="calculateFD()">Calculate</button>
+<div class="bank-grid">
 
-      <p class="fd-result" id="fdResult"></p>
-      <button onclick="">Open Fixed Deposit </button>
-    </div>
+<!-- DEBIT CARD -->
+<div class="bank-card">
+<h3>Debit Card (Demo)</h3>
+<p>Sample interface for card services</p>
+<button class="demo-btn">Apply (Demo)</button>
+<p>Already have a card?</p>
+<button class="demo-btn">Add Card (Demo)</button>
+</div>
 
-    <!-- UPI OPTION -->
-    <div class="bank-card">
-      <h3>UPI Services</h3>
-      <p>Send & receive money instantly using UPI.</p>
-      <ul>
-        <li>✔ Scan & Pay</li>
-        <li>✔ Mobile to Mobile</li>
-        <li>✔ Bank to Bank</li>
-      </ul>
-      <button>Activate UPI</button>
-    </div>
+<!-- LOANS -->
+<div class="bank-card">
+<h3>Loan Options (Demo)</h3>
+<ul>
+<li>🏠 Home Loan</li>
+<li>🚗 Vehicle Loan</li>
+<li>🎓 Education Loan</li>
+<li>💼 Personal Loan</li>
+</ul>
+<button class="demo-btn">Check Eligibility (Demo)</button>
+</div>
 
-    <div class="bank-card">
-      <h3>Insurances</h3>
-      <p>Insurances in afforable plans</p>
-      <ul>
-        <li>✔ Equipment/vechile insurance</li>
-        <li>✔ Property Insurance</li>
-        <li>✔ Damage of Goods </li>
-        <li>✔ Life insurance</li>
-      </ul>
-      <button>View Plans</button>
-    </div>
-  </div>
+<!-- FD CALCULATOR -->
+<div class="bank-card">
+<h3>FD Calculator (Example Only)</h3>
 
+<label>Amount (₹)</label>
+<input type="number" id="fdAmount" placeholder="Enter amount">
+
+<label>Years</label>
+<input type="number" id="fdYears" placeholder="Enter years">
+
+<button onclick="calculateFD()">Calculate</button>
+
+<p class="fd-result" id="fdResult"></p>
+
+<button class="demo-btn">Open FD (Demo)</button>
+</div>
+
+<!-- UPI -->
+<div class="bank-card">
+<h3>UPI Services (Demo)</h3>
+<p>Simulation of UPI features</p>
+<ul>
+<li>✔ Scan & Pay</li>
+<li>✔ Mobile to Mobile</li>
+<li>✔ Bank to Bank</li>
+</ul>
+<button class="demo-btn">Activate UPI (Demo)</button>
+</div>
+
+<!-- INSURANCE -->
+<div class="bank-card">
+<h3>Insurance Plans (Demo)</h3>
+<p>Sample insurance offerings</p>
+<ul>
+<li>✔ Equipment Insurance</li>
+<li>✔ Property Insurance</li>
+<li>✔ Goods Protection</li>
+<li>✔ Life Cover</li>
+</ul>
+<button class="demo-btn">View Plans (Demo)</button>
+</div>
+
+</div>
 </main>
+<p style="text-align:center;color:#b00020;font-weight:600;">
+⚠ This page is a BANKING SIMULATION for educational purposes only.  
+No real financial services, transactions, or advice are provided.
+</p>
 
-<!-- INLINE JS (OPTIONAL, SAME FILE) -->
+<!-- SAFE JS -->
 <script>
-  function calculateFD() {
-    let amount = document.getElementById("fdAmount").value;
-    let years = document.getElementById("fdYears").value;
-    let rate = 0.07;
+function calculateFD() {
+  let amount = document.getElementById("fdAmount").value;
+  let years = document.getElementById("fdYears").value;
+  let rate = 0.07; // example rate
 
-    if (amount && years) {
-      let maturity = amount * Math.pow((1 + rate), years);
-      document.getElementById("fdResult").innerText =
-        "Maturity Amount: ₹" + maturity.toFixed(2);
-    } else {
-      document.getElementById("fdResult").innerText =
-        "Please enter amount and years";
-    }
+  if (amount && years) {
+    let maturity = amount * Math.pow((1 + rate), years);
+    document.getElementById("fdResult").innerText =
+      "Estimated Amount (Example): ₹" + maturity.toFixed(2);
+  } else {
+    document.getElementById("fdResult").innerText =
+      "Please enter amount and years";
   }
+}
+
+document.querySelectorAll(".demo-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    alert("Demo only 🚫\nNo real banking action is performed.");
+  });
+});
 </script>
-    </body>
+
+</body>
 </html>
